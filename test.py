@@ -34,29 +34,30 @@
 # print(f"{minutes} минут и {rest_seconds} секунд")
 
 # ! 8
-hours1 = int(input("Введите час первого момента: "))
-minutes1 = int(input("Введите минуту первого момента: "))
-seconds1 = int(input("Введите секунду первого момента: "))
+# hours1 = int(input("Введите час первого момента: "))
+# minutes1 = int(input("Введите минуту первого момента: "))
+# seconds1 = int(input("Введите секунду первого момента: "))
 
-hours2 = int(input("Введите час второго момента: "))
-minutes2 = int(input("Введите минуту второго момента: "))
-seconds2 = int(input("Введите секунду второго момента: "))
+# hours2 = int(input("Введите час второго момента: "))
+# minutes2 = int(input("Введите минуту второго момента: "))
+# seconds2 = int(input("Введите секунду второго момента: "))
 
-delta_hours = hours2 - hours1
-delta_minutes = minutes2 - minutes1
-delta_seconds = seconds2 - seconds1
+# delta_hours = hours2 - hours1
+# delta_minutes = minutes2 - minutes1
+# delta_seconds = seconds2 - seconds1
 
-delta_seconds_total = delta_hours * 3600 + delta_minutes * 60 + delta_seconds
+# delta_seconds_total = delta_hours * 3600 + delta_minutes * 60 + delta_seconds
 
-print(f"Между двумя моментами прошло {delta_seconds_total} секунд")
+# print(f"Между двумя моментами прошло {delta_seconds_total} секунд")
 
 # ! 9
-# a = int(input("Введите значение переменной а: "))
-# V = int(input("Введите значение переменной V: "))
+import math
 
-# result = (a + 5) / (V * (a + 1))
+a = float(input("Введите значение а: "))
 
-# print(f"Значение функции равно: {result:.2f}")
+result = a + 5 / math.sqrt(a + 1)
+
+print(result)
 
 # ! 10
 # num = int(input('Введите трехзначное целое число: '))
